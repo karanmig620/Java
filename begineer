@@ -37,10 +37,10 @@ this.arguments = arguments;   //here this refers to the instance variable inorde
 constructors are by defalut there when we create a new object
 // or simple words to initialize the object of that class, we can also make the default empty constructor as custom constructor
 
-public Boxer {    //(object name)
+public Boxer (int arguments, int structures){    //(object name)
 // initilise it here
 
-arguments = 5;
-structures = 8;
+this.arguments = arguments;
+this.structures = structures;
 
 }
