@@ -1,0 +1,33 @@
+// instance variables
+these are the variables that we create outside the class 
+// we can also use the access specifier 
+// cant use these in any other class or from anywhere as we are using private accessifier 
+private int attributes = 1 ;
+private int attributes = 2 ;
+private int attributes = 4 ;
+
+// how to call these instance variables from anywhere
+// we use getters and setters
+// getter:- create a method to get the values of instance variables of the class .
+ // setters:- create a method to set the values of instance variables of the class .
+ 
+  
+ //access specifier must be public in order to get the value and no return type so 
+ always use default data type
+ 
+// how to call getters
+ public int getarguments() {
+ 
+ return arguments;
+ }
+ 
+// setters, we do have return type in setters so we will use void as the return type
+and also we have to pass the parameters
+
+public void setarguments(int arguments){
+// we can use if/else statements here also in order to use the variables
+if(arguments ==0){
+return;
+}
+this.arguments = arguments;   //here this refers to the instance variable inorder to set the variables.
+}
