@@ -44,3 +44,7 @@ this.arguments = arguments;
 this.structures = structures;
 
 }
+
+// Static variables
+related to all of the objects that we create also called shared variables.
+
