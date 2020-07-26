@@ -46,5 +46,21 @@ this.structures = structures;
 }
 
 // Static variables
-related to all of the objects that we create also called shared variables.
+related to all of the objects that we create out of the boxer/existing class also called shared variables.
+we dont need to create a new object to change the value of variable.
 
+//inheritence
+It is a relationship between two classes and in java, class can only inherit from one class.
+if we have private class then we cant access them 
+
+//protected
+only subclasses of class can access the attributes.
+class that inherit from the fighter class can access the attributes.
+
+//superclass
+a superrclass is a class that inherit from another class in this case. (fighter class is the super class). (boxer is the sub class).
+
+//methods or instace methods
+
+returns string value
+a code that does something
