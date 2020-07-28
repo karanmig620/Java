@@ -64,3 +64,27 @@ a superrclass is a class that inherit from another class in this case. (fighter 
 
 returns string value
 a code that does something
+
+//interface vs class
+a class in java can only inherit from one class.
+eg if we inherit boxer class from another class then iit is not allowed to inherit from fighter class.
+In java, class can inherit from multiple interfaces.
+
+Another diff
+
+methods we declare inside an interface are abstract.
+//abstract 
+they dont have any implementations we just declare the methods inside interface and then we can let their classes that implement the interface to provide old implementation of those methods
+a class can be instaciated means we can create the instance of the class.
+ 
+ an interface cant be instaciated interface can only have a referewnce to the object of the classes that implement the interface.
+ 
+ another diff 
+ 
+ all of the methods declare inside interface all are public
+  these methods can be accessed by other classes. cnt create private.
+ 
+want classes to have own implementations for share methods create interface.
+want classes to have template then create abstract class.
+
+
