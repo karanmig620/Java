@@ -75,9 +75,9 @@ Another diff
 methods we declare inside an interface are abstract.
 //abstract 
 they dont have any implementations we just declare the methods inside interface and then we can let their classes that implement the interface to provide old implementation of those methods
-a class can be instaciated means we can create the instance of the class.
+a class can be instantiated means we can create the instance of the class.
  
- an interface cant be instaciated interface can only have a referewnce to the object of the classes that implement the interface.
+ an interface cant be instantiated interface can only have a referewnce to the object of the classes that implement the interface.
  
  another diff 
  
@@ -86,5 +86,14 @@ a class can be instaciated means we can create the instance of the class.
  
 want classes to have own implementations for share methods create interface.
 want classes to have template then create abstract class.
+
+//final
+
+final means a constant
+
+//variable and constant
+
+if we create a variable later we change the value of that variable.
+if we create constant we cant change the value later.
 
 
